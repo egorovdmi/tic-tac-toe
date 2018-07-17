@@ -1,0 +1,9 @@
+<table>
+    <ng-container *ngFor="let cells of cellRows">
+        <tr>
+            <td *ngFor="let cell of cells">
+                <app-cell [cell]="cell"></app-cell>
+            </td>
+        </tr>
+    </ng-container>
+</table>
